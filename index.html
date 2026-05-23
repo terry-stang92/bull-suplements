@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BULL SUPPLEMENTS — Unleash Your Inner Beast</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+  <!-- ANNOUNCEMENT BAR -->
+  <div class="announcement-bar">
+    <button class="ann-prev">&#8249;</button>
+    <div class="ann-slider">
+      <span class="ann-slide active">🚚 FREE SHIPPING ON ORDERS OVER $75</span>
+      <span class="ann-slide">🔥 USE CODE <strong>BULL20</strong> FOR 20% OFF SITEWIDE</span>
+      <span class="ann-slide">💪 NEW ARRIVAL: BULL MODE PRE-WORKOUT IS LIVE</span>
+    </div>
+    <button class="ann-next">&#8250;</button>
+  </div>
+ 
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <span class="logo-icon">🐂</span>
+        <span class="logo-text">BULL<span class="logo-accent">SUPPLEMENTS</span></span>
+      </div>
+ 
+      <ul class="nav-links">
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Goals</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+ 
+      <div class="nav-actions">
+        <button class="dark-toggle" id="darkToggle" title="Toggle theme">☀️</button>
+        <button class="nav-cart">🛒 <span class="cart-count">0</span></button>
+        <button class="nav-cta">SHOP NOW</button>
+        <button class="hamburger" id="hamburger">☰</button>
+      </div>
+    </div>
+ 
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#">Products</a>
+      <a href="#">Goals</a>
+      <a href="#">About</a>
+      <a href="#">Blog</a>
+      <button class="nav-cta mobile-cta">SHOP NOW</button>
+    </div>
+  </nav>
+ 
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">🔥 NEW FORMULA — MAX STRENGTH</p>
+      <h1 class="hero-title">
+        UNLEASH<br>
+        YOUR<br>
+        <span class="hero-accent">INNER BEAST</span>
+      </h1>
+      <p class="hero-sub">Premium supplements engineered for athletes who refuse to settle. No fillers. No compromises. Just results.</p>
+      <div class="hero-btns">
+        <button class="btn-primary">SHOP NOW →</button>
+        <button class="btn-secondary">VIEW BUNDLES</button>
+      </div>
+      <div class="hero-trust">
+        <span>⭐ 4.9/5 Rating</span>
+        <span>|</span>
+        <span>50K+ Athletes</span>
+        <span>|</span>
+        <span>100% Natural</span>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&q=80" alt="Athlete" />
+    </div>
+  </section>
+ 
+  <!-- STATS BAR -->
+  <section class="stats-bar">
+    <div class="stat">
+      <span class="stat-num">50K+</span>
+      <span class="stat-label">Athletes Worldwide</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">100%</span>
+      <span class="stat-label">Natural Ingredients</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">4.9★</span>
+      <span class="stat-label">Average Rating</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">FREE</span>
+      <span class="stat-label">Shipping $75+</span>
+    </div>
+  </section>
+ 
+  <!-- PRODUCTS -->
+  <section class="products" id="products">
+    <div class="section-inner">
+      <h2 class="section-title">OUR <span class="accent">BESTSELLERS</span></h2>
+      <p class="section-sub">Our customers' favorite products. Check them out.</p>
+ 
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">ALL</button>
+        <button class="filter-btn" data-filter="pre-workout">PRE-WORKOUT</button>
+        <button class="filter-btn" data-filter="protein">PROTEIN</button>
+        <button class="filter-btn" data-filter="recovery">RECOVERY</button>
+      </div>
+ 
+      <div class="products-grid">
+ 
+        <div class="product-card" data-cat="pre-workout">
+          <div class="product-badge">BEST SELLER</div>
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1593095948071-474c5cc2989d?w=300&q=80" alt="Bull Mode">
+          </div>
+          <div class="product-info">
+            <p class="product-cat">PRE-WORKOUT</p>
+            <h3 class="product-name">BULL MODE</h3>
+            <p class="product-desc">Maximum energy and focus formula</p>
+            <div class="product-rating">⭐⭐⭐⭐⭐ <span>(2,341)</span></div>
+            <div class="product-price">
+              <span class="price-current">$54.99</span>
+              <span class="price-old">$64.99</span>
+            </div>
+            <button class="add-cart">ADD TO CART</button>
+          </div>
+        </div>
+ 
+        <div class="product-card" data-cat="protein">
+          <div class="product-badge sale">20% OFF</div>
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&q=80" alt="Bull Whey">
+          </div>
+          <div class="product-info">
+            <p class="product-cat">PROTEIN</p>
+            <h3 class="product-name">BULL WHEY</h3>
+            <p class="product-desc">25g protein per serving, zero fillers</p>
+            <div class="product-rating">⭐⭐⭐⭐⭐ <span>(1,892)</span></div>
+            <div class="product-price">
+              <span class="price-current">$47.99</span>
+              <span class="price-old">$59.99</span>
+            </div>
+            <button class="add-cart">ADD TO CART</button>
+          </div>
+        </div>
+ 
+        <div class="product-card" data-cat="recovery">
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=300&q=80" alt="Bull Recovery">
+          </div>
+          <div class="product-info">
+            <p class="product-cat">RECOVERY</p>
+            <h3 class="product-name">BULL RECOVERY</h3>
+            <p class="product-desc">Sleep deeper. Recover faster. Grow more.</p>
+            <div class="product-rating">⭐⭐⭐⭐⭐ <span>(987)</span></div>
+            <div class="product-price">
+              <span class="price-current">$39.99</span>
+            </div>
+            <button class="add-cart">ADD TO CART</button>
+          </div>
+        </div>
+ 
+        <div class="product-card" data-cat="pre-workout">
+          <div class="product-badge new">NEW</div>
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=300&q=80" alt="Bull Nitric">
+          </div>
+          <div class="product-info">
+            <p class="product-cat">PRE-WORKOUT</p>
+            <h3 class="product-name">BULL NITRIC</h3>
+            <p class="product-desc">Stimulant-free pump formula</p>
+            <div class="product-rating">⭐⭐⭐⭐⭐ <span>(543)</span></div>
+            <div class="product-price">
+              <span class="price-current">$49.99</span>
+            </div>
+            <button class="add-cart">ADD TO CART</button>
+          </div>
+        </div>
+ 
+        <div class="product-card" data-cat="protein">
+          <div class="product-img">
+            <img src="swoly-supplements-5NJme42ptMw-unsplash.jpg" alt="Bull Creatine">
+          </div>
+          <div class="product-info">
+            <p class="product-cat">PROTEIN</p>
+            <h3 class="product-name">BULL CREATINE</h3>
+            <p class="product-desc">Micronized creatine monohydrate</p>
+            <div class="product-rating">⭐⭐⭐⭐⭐ <span>(3,201)</span></div>
+            <div class="product-price">
+              <span class="price-current">$34.99</span>
+            </div>
+            <button class="add-cart">ADD TO CART</button>
+          </div>
+        </div>
+ 
+        <div class="product-card" data-cat="recovery">
+          <div class="product-badge sale">15% OFF</div>
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1535914254981-b5012eebbd15?w=300&q=80" alt="Bull Sleep">
+          </div>
+          <div class="product-info">
+            <p class="product-cat">RECOVERY</p>
+            <h3 class="product-name">BULL SLEEP</h3>
+            <p class="product-desc">Deep sleep and hormone optimization</p>
+            <div class="product-rating">⭐⭐⭐⭐⭐ <span>(721)</span></div>
+            <div class="product-price">
+              <span class="price-current">$42.49</span>
+              <span class="price-old">$49.99</span>
+            </div>
+            <button class="add-cart">ADD TO CART</button>
+          </div>
+        </div>
+ 
+      </div>
+    </div>
+  </section>
+ 
+  <!-- SHOP BY GOAL -->
+  <section class="goals">
+    <div class="section-inner">
+      <h2 class="section-title">SHOP BY <span class="accent">GOAL</span></h2>
+      <div class="goals-grid">
+        <div class="goal-card">
+          <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&q=80" alt="Build Muscle">
+          <div class="goal-overlay">
+            <h3>BUILD MUSCLE</h3>
+            <button>SHOP →</button>
+          </div>
+        </div>
+        <div class="goal-card">
+          <img src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=400&q=80" alt="Energy">
+          <div class="goal-overlay">
+            <h3>ENERGY & FOCUS</h3>
+            <button>SHOP →</button>
+          </div>
+        </div>
+        <div class="goal-card">
+          <img src="https://images.unsplash.com/photo-1579126038374-6064e9370f0f?w=400&q=80" alt="Health">
+          <div class="goal-overlay">
+            <h3>HEALTH & WELLNESS</h3>
+            <button>SHOP →</button>
+          </div>
+        </div>
+        <div class="goal-card">
+          <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&q=80" alt="Recovery">
+          <div class="goal-overlay">
+            <h3>RECOVERY</h3>
+            <button>SHOP →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- WHY CHOOSE US -->
+  <section class="why">
+    <div class="section-inner">
+      <h2 class="section-title">WHY <span class="accent">BULL?</span></h2>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon">🧪</div>
+          <h3>LAB TESTED</h3>
+          <p>Every batch tested by third-party labs. Full transparency, zero compromises.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">⚡</div>
+          <h3>MAX POTENCY</h3>
+          <p>Clinical doses. No underdosing. Every ingredient at effective levels.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🌱</div>
+          <h3>CLEAN FORMULA</h3>
+          <p>No artificial colors, no fillers, no proprietary blends. Just pure performance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="section-inner">
+      <h2 class="section-title">WHAT ATHLETES <span class="accent">SAY</span></h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">"Bull Mode is the best pre-workout I've ever tried. Insane focus, no crash, no jitters. This is my permanent stack."</p>
+          <div class="testimonial-author">
+            <img src="https://i.pravatar.cc/50?img=11" alt="Carlos">
+            <div>
+              <strong>Carlos M.</strong>
+              <span>Powerlifter — 3 years with Bull</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">"Switched from another brand and never looked back. Bull Whey mixes perfectly, tastes incredible, and the gains are real."</p>
+          <div class="testimonial-author">
+            <img src="https://i.pravatar.cc/50?img=5" alt="Ana">
+            <div>
+              <strong>Ana R.</strong>
+              <span>Bodybuilder — 2 years with Bull</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">"Recovery supplement changed everything. I train harder knowing I can recover properly. Sleep is deeper, soreness is gone."</p>
+          <div class="testimonial-author">
+            <img src="https://i.pravatar.cc/50?img=8" alt="Luis">
+            <div>
+              <strong>Luis T.</strong>
+              <span>CrossFit athlete — 1 year with Bull</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- NEWSLETTER -->
+  <section class="newsletter">
+    <div class="section-inner">
+      <h2>JOIN THE <span class="accent">BULL HERD</span></h2>
+      <p>Subscribe for exclusive deals, new arrivals, and performance tips.</p>
+      <form class="newsletter-form" id="newsletterForm">
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit">SUBSCRIBE →</button>
+      </form>
+      <p class="newsletter-disclaimer">No spam. Unsubscribe anytime.</p>
+    </div>
+  </section>
+ 
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <div class="footer-logo">🐂 BULL SUPPLEMENTS</div>
+        <p class="footer-tagline">Engineered for athletes who refuse to settle.</p>
+        <div class="footer-social">
+          <a href="#">📘</a>
+          <a href="#">📸</a>
+          <a href="#">🎵</a>
+          <a href="#">🐦</a>
+          <a href="#">▶️</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>PRODUCTS</h4>
+        <a href="#">Best Sellers</a>
+        <a href="#">New Arrivals</a>
+        <a href="#">On Sale</a>
+        <a href="#">Bundles</a>
+        <a href="#">Subscribe & Save</a>
+      </div>
+      <div class="footer-col">
+        <h4>ABOUT US</h4>
+        <a href="#">Our Story</a>
+        <a href="#">Athletes</a>
+        <a href="#">Careers</a>
+        <a href="#">Ambassador Program</a>
+        <a href="#">Military Discount</a>
+      </div>
+      <div class="footer-col">
+        <h4>SUPPORT</h4>
+        <a href="#">Contact Us</a>
+        <a href="#">FAQ</a>
+        <a href="#">Shipping Info</a>
+        <a href="#">Returns</a>
+        <a href="#">Track Order</a>
+      </div>
+    </div>
+ 
+    <div class="footer-bottom">
+      <div class="payment-methods">
+        <span class="payment-icon">VISA</span>
+        <span class="payment-icon">MC</span>
+        <span class="payment-icon">AMEX</span>
+        <span class="payment-icon">PAYPAL</span>
+        <span class="payment-icon">APPLE PAY</span>
+        <span class="payment-icon">GOOGLE PAY</span>
+      </div>
+      <p class="footer-copy">© 2026 BULL SUPPLEMENTS LLC. All rights reserved.</p>
+      <p class="footer-disclaimer">*These statements have not been evaluated by the FDA. These products are not intended to diagnose, treat, cure, or prevent any disease.</p>
+    </div>
+  </footer>
+ 
+  <!-- WHATSAPP BUTTON -->
+  <a href="https://wa.me/1234567890" class="whatsapp-btn" target="_blank" title="Chat with us">
+    💬
+  </a>
+ 
+  <script src="main.js"></script>
+</body>
+</html>
